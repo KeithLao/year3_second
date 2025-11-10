@@ -45,8 +45,8 @@ The router follows a reference architecture with simplifications for practical i
 
 Top-level folders (example):
 
-- `2_dsb_router/` — Verilog/SystemVerilog modules for the DSB router implementation.  
-- `2_dsb_mesh/`   — Verilog/SystemVerilog modules for the 2x2 2D mesh implementation.   
+- `2_dsb_router/` — Verilog modules for the DSB router implementation.  
+- `2_dsb_mesh/`   — Verilog modules for the 2x2 2D mesh implementation.   
 - `0_DATA/`, `0_MESH_DATA/` — Using C++ to generate data use in 2_dsb_router and 2_dsb_mesh  
 
 
