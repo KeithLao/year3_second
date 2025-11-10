@@ -1,0 +1,35 @@
+    wire [1:0]p_head = flitp[`FLIT_LENGTH-1:`FLIT_LENGTH-2];
+    wire [2:0]s_head = flits[`FLIT_LENGTH-1:`FLIT_LENGTH-2];
+    wire [2:0]w_head = flitw[`FLIT_LENGTH-1:`FLIT_LENGTH-2];
+    wire [2:0]n_head = flitn[`FLIT_LENGTH-1:`FLIT_LENGTH-2];
+    wire [2:0]e_head = flite[`FLIT_LENGTH-1:`FLIT_LENGTH-2];
+
+    wire [2:0]p_srcx = flitp[`FLIT_LENGTH-3:`FLIT_LENGTH-5];
+    wire [2:0]s_srcx = flits[`FLIT_LENGTH-3:`FLIT_LENGTH-5];
+    wire [2:0]w_srcx = flitw[`FLIT_LENGTH-3:`FLIT_LENGTH-5];
+    wire [2:0]n_srcx = flitn[`FLIT_LENGTH-3:`FLIT_LENGTH-5];
+    wire [2:0]e_srcx = flite[`FLIT_LENGTH-3:`FLIT_LENGTH-5];
+
+    wire [2:0]p_srcy = flitp[`FLIT_LENGTH-6:`FLIT_LENGTH-8];
+    wire [2:0]s_srcy = flits[`FLIT_LENGTH-6:`FLIT_LENGTH-8];
+    wire [2:0]w_srcy = flitw[`FLIT_LENGTH-6:`FLIT_LENGTH-8];
+    wire [2:0]n_srcy = flitn[`FLIT_LENGTH-6:`FLIT_LENGTH-8];
+    wire [2:0]e_srcy = flite[`FLIT_LENGTH-6:`FLIT_LENGTH-8];
+
+    wire [2:0]p_destx = flitp[`FLIT_LENGTH-9:`FLIT_LENGTH-11];
+    wire [2:0]s_destx = flits[`FLIT_LENGTH-9:`FLIT_LENGTH-11];
+    wire [2:0]w_destx = flitw[`FLIT_LENGTH-9:`FLIT_LENGTH-11];
+    wire [2:0]n_destx = flitn[`FLIT_LENGTH-9:`FLIT_LENGTH-11];
+    wire [2:0]e_destx = flite[`FLIT_LENGTH-9:`FLIT_LENGTH-11];
+
+    wire [2:0]p_desty = flitp[`FLIT_LENGTH-12:`FLIT_LENGTH-14];
+    wire [2:0]s_desty = flits[`FLIT_LENGTH-12:`FLIT_LENGTH-14];
+    wire [2:0]w_desty = flitw[`FLIT_LENGTH-12:`FLIT_LENGTH-14];
+    wire [2:0]n_desty = flitn[`FLIT_LENGTH-12:`FLIT_LENGTH-14];
+    wire [2:0]e_desty = flite[`FLIT_LENGTH-12:`FLIT_LENGTH-14];
+
+    wire [15:0]p_num = flitp[15:0];
+    wire [15:0]s_num = flits[15:0];
+    wire [15:0]w_num = flitw[15:0];
+    wire [15:0]n_num = flitn[15:0];
+    wire [15:0]e_num = flite[15:0];
